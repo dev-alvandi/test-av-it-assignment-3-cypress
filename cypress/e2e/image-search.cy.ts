@@ -31,7 +31,7 @@ describe('Image Search Tests', () => {
 
     it('Search is case insensitive', () => {
         cy.then(() => {
-            const keyword = (keywords[1] ?? 'FLOWERS').toUpperCase();
+            const keyword = (keywords[1] ?? 'Empire').toUpperCase();
             cy.get('input[name="search_terms"]').type(keyword);
             cy.get('button[type="submit"]').click();
             cy.get('#searchResultsContainer').should('be.visible');
