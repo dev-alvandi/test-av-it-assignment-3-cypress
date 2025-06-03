@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efedb165-1f0f-4827-87e0-5e4c70e8d2da" name="Changes" comment="" />
+    <list default="true" id="efedb165-1f0f-4827-87e0-5e4c70e8d2da" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/image-search.cy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/image-search.cy.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +32,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:dev-alvandi/test-av-it-assignment-3.git&quot;,
+    &quot;url&quot;: &quot;git@github.com:dev-alvandi/test-av-it-assignment-3-cypress.git&quot;,
     &quot;accountId&quot;: &quot;a3b3903d-8d81-46f5-9b8e-19470ee76dec&quot;
   }
 }</component>
@@ -41,36 +44,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cypress.all tests in image-search.cy.ts.executor": "Run",
-    "Cypress.all tests in login.cy.ts.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Playwright.Image Search Tests.Access image list directly.executor": "Debug",
-    "Playwright.Image Search Tests.Search for a real keyword from API (1).executor": "Run",
-    "Playwright.Image Search Tests.Search for a real keyword from API.executor": "Run",
-    "Playwright.Image Search Tests.Search is case insensitive.executor": "Run",
-    "Playwright.Image Search Tests.executor": "Run",
-    "Playwright.Login Tests.Invalid login: unknown username.executor": "Run",
-    "Playwright.Login Tests.Invalid login: username filled, password empty (blocked by browser).executor": "Run",
-    "Playwright.Login Tests.Invalid login: wrong password.executor": "Run",
-    "Playwright.Login Tests.Login with valid user: Johan.executor": "Run",
-    "Playwright.Login Tests.Login with valid user: Stina.executor": "Run",
-    "Playwright.Login Tests.Valid login with Stina.executor": "Run",
-    "Playwright.Login Tests.executor": "Run",
-    "Playwright.has title.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/noah/LTU/7_Test_av_IT-system/uppgift-3.0-cypress",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_interpreter_path": "/home/noah/.config/JetBrains/IntelliJIdea2025.1/node/versions/22.15.0/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "/home/noah/LTU/7_Test_av_IT-system/uppgift-3.0-cypress/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cypress.all tests in image-search.cy.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Cypress.all tests in login.cy.ts.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Playwright.Image Search Tests.Access image list directly.executor&quot;: &quot;Debug&quot;,
+    &quot;Playwright.Image Search Tests.Search for a real keyword from API (1).executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Image Search Tests.Search for a real keyword from API.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Image Search Tests.Search is case insensitive.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Image Search Tests.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Login Tests.Invalid login: unknown username.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Login Tests.Invalid login: username filled, password empty (blocked by browser).executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Login Tests.Invalid login: wrong password.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Login Tests.Login with valid user: Johan.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Login Tests.Login with valid user: Stina.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Login Tests.Valid login with Stina.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.Login Tests.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.has title.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/noah/LTU/7_Test_av_IT-system/uppgift-3.0-cypress&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/home/noah/.config/JetBrains/IntelliJIdea2025.1/node/versions/22.15.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/noah/LTU/7_Test_av_IT-system/uppgift-3.0-cypress/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Cypress.all tests in image-search.cy.ts">
     <configuration name="all tests in image-search.cy.ts" type="JavaScriptTestRunnerCypress" temporary="true">
       <node-interpreter value="project" />
@@ -99,7 +103,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Image Search Tests" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
+      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/versions/22.15.1/bin/node" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
@@ -138,9 +142,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cypress.all tests in image-search.cy.ts" />
-        <item itemvalue="Cypress.all tests in login.cy.ts" />
         <item itemvalue="Playwright.Image Search Tests" />
         <item itemvalue="Playwright.Login Tests" />
+        <item itemvalue="Cypress.all tests in login.cy.ts" />
         <item itemvalue="Playwright.Login Tests.Invalid login: username filled, password empty (blocked by browser)" />
       </list>
     </recent_temporary>
@@ -148,8 +152,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -162,6 +166,11 @@
       <updated>1746640330170</updated>
       <workItem from="1746640331243" duration="7345000" />
       <workItem from="1746648326981" duration="3159000" />
+      <workItem from="1747312404376" duration="59000" />
+      <workItem from="1747387556165" duration="118000" />
+      <workItem from="1747387856370" duration="70000" />
+      <workItem from="1748716798974" duration="41000" />
+      <workItem from="1748967461976" duration="649000" />
     </task>
     <servers />
   </component>

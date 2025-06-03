@@ -1,7 +1,6 @@
 import type {ImageResponse} from "@/utils/constants"
 import {BASE_URL, LOGIN_URL, IMAGE_API_URL} from "@/utils/constants"
 
-
 describe('Image Search Tests', () => {
     let keywords: string[] = [];
 
@@ -49,5 +48,13 @@ describe('Image Search Tests', () => {
         cy.get('input[name="search_terms"]').clear();
         cy.get('button[type="submit"]').click();
         cy.get('input[name="search_terms"]').should('exist');
+    });
+
+    it('Search with only whitespace is rejected', () => {
+        cy.get('input[name="search_terms"]').type('   ');
+        cy.get('button[type="submit"]').click();
+        cy.get('#searchErrorMessage')
+            .should('be.visible')
+            .and('contain.text', 'Search query is required.');
     });
 });
